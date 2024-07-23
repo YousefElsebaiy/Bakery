@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.over{
+    background: url(../img/asset2.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 690px;
+}
+.over .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+.over .navbar img{
+    width: 160px;
+    cursor: pointer;
+    margin: 0 30px;
+}
+.over .navbar .link-nav a{
+    color: #7c6c6c;
+    font-size: 16px;
+    padding: 8px 24px 8px 8px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.over .navbar .link-nav a:hover{
+    color: #fff;
+}
+.over .navbar .link-nav{
+    margin: 0 30px;
+}
+.over .text{
+    padding: 48px 15px 0;
+    text-align: center;
+}
+.over .text h2{
+    margin: 50px 0 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.over .text h1{
+    color: #fff;
+    font-size: 72px;
+    margin: 0 0 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.over .text p{
+    margin: 0 0 16px;
+    color: #f0cdcd;
+    font-size: 20.8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.over .text .a{
+    color: #fff;
+    background-color: #8e7754;
+    margin: 0 16px 0 0;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.linik{
+    border: 2px solid #fff;
+    background: none;
+    margin: 0 16px 0 0;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.over .text a:hover{
+    background-color: #fff;
+    color: black;
+}
+.text1{
+    margin: 48px 0 0;
+    padding: 48px 15px 24px;
+}
+.btn{
+    width: 32px;
+    height: 50px;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+}
+.btn span{
+    background-color: #ffffffe6;
+    width: 5px;
+    height: 8px;
+    top: 20px;
+    left: 11px;
+    border-radius: 10px;
+    position: absolute;
+    animation: rep 5s ease-in-out infinite;
+}
+@keyframes rep{
+    0%{
+        top: 35px;
+    }
+    25%{
+        top: 10px;
+    }
+    50%{
+        top: 35px;
+    }
+    75%{
+        top: 10px;
+    }
+    100%{
+        top: 35px;
+    }
+}
+.btn1{
+    cursor: pointer;
+    position: absolute;
+    top: 160px;
+    right: 32px;
+    margin: 0 13px 0 0;
+}
+.flex{
+    position: fixed;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 16px 0 16px 11.2px;
+}
+.flex i{
+    font-size: 1.4em;
+    padding: 8px 16px 8px 0;
+}
+.flex i:hover{
+    color: blue;
+}
+.btn55{
+    display: flex;
+    margin: 48px 0 0;
+    justify-content: space-around;
+}
+.btn55 div{
+    padding: 0 15px;
+}
+.col img{
+    width: 500px;
+    height: 450px;
+}
+.cold h3{
+    margin: 0 0 8px;
+    padding: 48px 0 0;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #303030;
+}
+.cold p{
+    margin: 0 0 16px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #686868;
+    line-height: 1.86em;
+}
+.cold .p{
+    padding: 16px 0;
+    text-align: center;
+}
+.cold p .fas{
+    margin: 0 4px 0 0;
+    padding: 10px;
+    color: #8e7754;
+    border: 1px solid #929292;
+    border-radius: 50%;
+}
+.b101{
+    margin: 16px -15px 0;
+    padding: 48px 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.b101 div{
+    padding: 0 15px;
+}
+.text5 h3{
+    color: #303030;
+    margin: 0 0 8px;
+    padding: 48px 0 0;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text5 p{
+    color: #686868;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 16px;
+    padding: 16px 0;
+    line-height: 1.86em;
+}
+.text5 .ppp{
+    padding: 8px 0 16px;
+}
+.imgg img{
+    width: 500px;
+    height: 375px;
+}
+.bigg{
+    padding: 24px 0 0;
+    text-align: center;
+}
+.bigg .big4{
+    margin: auto;
+    padding: 0 15px;
+}
+.texte{
+    padding: 0 15px;
+}
+.texte h3{
+    margin: 0 0 8px;
+    font-size: 28px;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.texte p{
+    margin: 0 0 16px;
+    padding: 16px 0 0;
+    color: #686868;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.small{
+    display: flex;
+    justify-content: space-around;
+}
+.small div{
+    padding: 24px 15px 0;
+}
+.small div img{
+    height: 280px;
+    width: 336px;
+}
+.t{
+    padding: 20px;
+}
+.t h4{
+    margin: 0 0 8px;
+    font-size: 20.8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212529;
+}
+.t p{
+    font-size: 16px;
+    color: #686868;
+    margin: 0 0 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.big10000{
+    padding: 0 0 24px;
+}
+.w0{
+    padding: 0 15px;
+    margin: auto;
+}
+.texter{
+    margin: 24px 0 0;
+    padding: 48px 15px 0;
+}
+.k9{
+    display: flex;
+    justify-content: space-around;
+}
+.google{
+    padding: 48px 15px 0;
+}
+.google img{
+    height: 500px;
+}
+.texter h3{
+    text-align: center;
+    margin: 0 0 8px;
+    color: #303030;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25.6px;
+}
+.para1000{
+    text-align: center;
+}
+.texter p{
+    margin: 0 0 16px;
+    line-height: 1.86em;
+    color: #686868;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texter .fas{
+    border-radius: 50%;
+    border: 1px solid #686868;
+    margin: 0 4px 0 0;
+    padding: 10px;
+    color: #303030;
+}
+.footer{
+    padding: 48px 0 24px;
+    background-color: #403d38;
+}
+.foot{
+    padding: 0 15;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.row .dir{
+    padding: 0 15px;
+}
+.dir p{
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    color: #969696;
+    font-size: 19.2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 1px solid rgb(48, 48, 48);
+    width: 245.04px;
+}
+.dir h3{
+    margin: 0 0 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.dir .fas{
+    padding: 7px;
+}
+footer nav{
+    padding: 48px 0;
+    background-color: #353330;
+    display: flex;
+}
+.cols{
+    padding: 0 15px;
+    margin: auto;
+    text-align: center;
+}
+.cols img{
+    width: 353px;
+    height: 96px;
+}
+.cols h6{
+    font-size: 14px;
+    margin: 0 0 8px;
+    padding: 16px 0;
+    color: #969696;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cols .fab{
+    background-color: #484540;
+    padding: 10px;
+    margin: 0 4px 0 0;
+    font-size: 1.3em;
+    color: rgb(140, 138, 134);
+    border-radius: 50%;
+}
+.cols .fab:hover{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.cols .fab.fa-google-plus-g:hover{
+    background-color: red;
+}
